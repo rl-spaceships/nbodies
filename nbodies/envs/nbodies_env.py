@@ -27,11 +27,11 @@ class NbodiesEnv(gym.Env):
     
     # good to have help functions for other aspects - _take_action, _next_observation, _get_reward
 
-    _next_observation(self):
+    def _next_observation(self):
         pass
 
-    _take_action(self):
+    def _take_action(self):
         pass
 
-    _get_reward(self):
+    def _get_reward(self):
         pass
